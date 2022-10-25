@@ -6,6 +6,7 @@ out/
 /.allure
 /target
 /logs
+reports/
 
 *.iml
 *.ipr
