@@ -1,0 +1,11 @@
+{
+  "error": true,
+  "internalError": true,
+  "code": "100",
+  "message": "Internal Error in HTTP Server",
+  "causedBy": [
+    "An error in the code - please contact me through one of the options on my website (https://sv443.net/) with the additional info."
+  ],
+  "timestamp": 1666651501112,
+  "additionalInfo": "Joke submissions are disabled for the forseeable future."
+}

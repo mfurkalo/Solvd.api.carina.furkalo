@@ -1,0 +1,15 @@
+{
+  "formatVersion": 3,
+  "category": "Dark",
+  "type": "single",
+  "joke": "Перший Український жарт",
+  "flags": {
+    "nsfw": false,
+    "religious": false,
+    "political": false,
+    "racist": false,
+    "sexist": false,
+    "explicit": false
+  },
+  "lang": "uk"
+}
