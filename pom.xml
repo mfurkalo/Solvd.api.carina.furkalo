@@ -16,7 +16,6 @@
         <maven.compiler.target>11</maven.compiler.target>
         <carina-version>8.0.0</carina-version>
         <log4j-version>2.19.0</log4j-version>
-        <suite>helloTest</suite>
     </properties>
 
     <dependencies>
