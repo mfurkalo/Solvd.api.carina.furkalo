@@ -1,0 +1,214 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "error": {
+      "type": "boolean"
+    },
+    "amount": {
+      "type": "integer"
+    },
+    "jokes": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "category": {
+              "type": "string"
+            },
+            "type": {
+              "type": "string"
+            },
+            "setup": {
+              "type": "string"
+            },
+            "delivery": {
+              "type": "string"
+            },
+            "flags": {
+              "type": "object",
+              "properties": {
+                "nsfw": {
+                  "type": "boolean"
+                },
+                "religious": {
+                  "type": "boolean"
+                },
+                "political": {
+                  "type": "boolean"
+                },
+                "racist": {
+                  "type": "boolean"
+                },
+                "sexist": {
+                  "type": "boolean"
+                },
+                "explicit": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "nsfw",
+                "religious",
+                "political",
+                "racist",
+                "sexist",
+                "explicit"
+              ]
+            },
+            "id": {
+              "type": "integer"
+            },
+            "safe": {
+              "type": "boolean"
+            },
+            "lang": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "category",
+            "type",
+            "flags",
+            "id",
+            "safe",
+            "lang"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "category": {
+              "type": "string"
+            },
+            "type": {
+              "type": "string"
+            },
+            "setup": {
+              "type": "string"
+            },
+            "delivery": {
+              "type": "string"
+            },
+            "flags": {
+              "type": "object",
+              "properties": {
+                "nsfw": {
+                  "type": "boolean"
+                },
+                "religious": {
+                  "type": "boolean"
+                },
+                "political": {
+                  "type": "boolean"
+                },
+                "racist": {
+                  "type": "boolean"
+                },
+                "sexist": {
+                  "type": "boolean"
+                },
+                "explicit": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "nsfw",
+                "religious",
+                "political",
+                "racist",
+                "sexist",
+                "explicit"
+              ]
+            },
+            "id": {
+              "type": "integer"
+            },
+            "safe": {
+              "type": "boolean"
+            },
+            "lang": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "category",
+            "type",
+            "flags",
+            "id",
+            "safe",
+            "lang"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "category": {
+              "type": "string"
+            },
+            "type": {
+              "type": "string"
+            },
+            "joke": {
+              "type": "string"
+            },
+            "flags": {
+              "type": "object",
+              "properties": {
+                "nsfw": {
+                  "type": "boolean"
+                },
+                "religious": {
+                  "type": "boolean"
+                },
+                "political": {
+                  "type": "boolean"
+                },
+                "racist": {
+                  "type": "boolean"
+                },
+                "sexist": {
+                  "type": "boolean"
+                },
+                "explicit": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "nsfw",
+                "religious",
+                "political",
+                "racist",
+                "sexist",
+                "explicit"
+              ]
+            },
+            "id": {
+              "type": "integer"
+            },
+            "safe": {
+              "type": "boolean"
+            },
+            "lang": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "category",
+            "type",
+            "flags",
+            "id",
+            "safe",
+            "lang"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "error",
+    "amount",
+    "jokes"
+  ]
+}
