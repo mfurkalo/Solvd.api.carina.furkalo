@@ -1,0 +1,233 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "ID Year": {
+              "type": "integer"
+            },
+            "Year": {
+              "type": "string"
+            },
+            "Population": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "ID Year",
+            "Year",
+            "Population"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "ID Year": {
+              "type": "integer"
+            },
+            "Year": {
+              "type": "string"
+            },
+            "Population": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "ID Year",
+            "Year",
+            "Population"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "ID Year": {
+              "type": "integer"
+            },
+            "Year": {
+              "type": "string"
+            },
+            "Population": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "ID Year",
+            "Year",
+            "Population"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "ID Year": {
+              "type": "integer"
+            },
+            "Year": {
+              "type": "string"
+            },
+            "Population": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "ID Year",
+            "Year",
+            "Population"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "ID Year": {
+              "type": "integer"
+            },
+            "Year": {
+              "type": "string"
+            },
+            "Population": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "ID Year",
+            "Year",
+            "Population"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "ID Year": {
+              "type": "integer"
+            },
+            "Year": {
+              "type": "string"
+            },
+            "Population": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "ID Year",
+            "Year",
+            "Population"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "ID Year": {
+              "type": "integer"
+            },
+            "Year": {
+              "type": "string"
+            },
+            "Population": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "ID Year",
+            "Year",
+            "Population"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "ID Year": {
+              "type": "integer"
+            },
+            "Year": {
+              "type": "string"
+            },
+            "Population": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "ID Year",
+            "Year",
+            "Population"
+          ]
+        }
+      ]
+    },
+    "source": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "measures": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "annotations": {
+              "type": "object",
+              "properties": {
+                "source_name": {
+                  "type": "string"
+                },
+                "source_description": {
+                  "type": "string"
+                },
+                "dataset_name": {
+                  "type": "string"
+                },
+                "dataset_link": {
+                  "type": "string"
+                },
+                "table_id": {
+                  "type": "string"
+                },
+                "topic": {
+                  "type": "string"
+                },
+                "subtopic": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "source_name",
+                "source_description",
+                "dataset_name",
+                "dataset_link",
+                "table_id",
+                "topic",
+                "subtopic"
+              ]
+            },
+            "name": {
+              "type": "string"
+            },
+            "substitutions": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "measures",
+            "annotations",
+            "name",
+            "substitutions"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "data",
+    "source"
+  ]
+}
