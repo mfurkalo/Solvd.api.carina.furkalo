@@ -1,3 +1,6 @@
+import api.GetDataMethod;
+import api.GetJokeMethods;
+import api.PostJokeMethods;
 import com.qaprosoft.apitools.validation.JsonCompareKeywords;
 import com.qaprosoft.carina.core.foundation.IAbstractTest;
 import com.qaprosoft.carina.core.foundation.api.http.HttpResponseStatusType;
